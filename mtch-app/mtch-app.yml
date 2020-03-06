@@ -1,6 +1,6 @@
 management:
   endpoints:
-    jmx:
+    web:
       exposure:
         include: env,health,info,refresh
 
