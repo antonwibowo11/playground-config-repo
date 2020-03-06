@@ -1,0 +1,3 @@
+queue:
+  refresh:
+    rateInMs: 60000
