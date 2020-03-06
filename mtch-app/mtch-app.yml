@@ -2,7 +2,7 @@ management:
   endpoints:
     jmx:
       exposure:
-        include: health,info
+        include: env,health,info,refresh
 
 
 queue:
