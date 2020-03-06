@@ -1,3 +1,10 @@
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: health,info
+
+
 queue:
   refresh:
     rateInMs: 30000
