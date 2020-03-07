@@ -5,6 +5,7 @@ management:
         include: env,health,info,refresh
 
 
-matcher:
+
+matcher2:
   queue:
     maxNumOfMessages: 10
