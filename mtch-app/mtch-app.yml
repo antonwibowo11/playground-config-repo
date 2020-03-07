@@ -5,6 +5,6 @@ management:
         include: env,health,info,refresh
 
 
-queue:
-  refresh:
-    rateInMs: 30000
+matcher:
+  queue:
+    maxNumOfMessages: 10
