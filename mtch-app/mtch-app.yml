@@ -6,6 +6,6 @@ management:
 
 
 
-matcher2:
-  queue:
-    maxNumOfMessages: 10
+matcher:
+  scheduler:
+    fixedRateMs: 1000
